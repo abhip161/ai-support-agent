@@ -1,0 +1,84 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "type": "Aesthetics & Beauty Clinic",
+    "tagline": "Natural beauty, expertly delivered."
+  },
+  "hours": {
+    "monday": "9am - 7pm",
+    "tuesday": "9am - 7pm",
+    "wednesday": "9am - 7pm",
+    "thursday": "9am - 7pm",
+    "friday": "9am - 7pm",
+    "saturday": "9am - 7pm",
+    "sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "description": "Anti-wrinkle injections to smooth fine lines and wrinkles.",
+      "price_from": 200,
+      "currency": "GBP",
+      "unit": "per area",
+      "notes": "Results typically last 3-4 months. Consultation required before first treatment."
+    },
+    {
+      "name": "Dermal Fillers",
+      "description": "Hyaluronic acid fillers for lip enhancement, cheek contouring, and facial volumising.",
+      "price_from": 250,
+      "currency": "GBP",
+      "unit": "per syringe",
+      "notes": "Results typically last 6-18 months depending on area. Consultation required."
+    },
+    {
+      "name": "Consultations",
+      "description": "Initial face-to-face assessment with our aesthetic practitioners.",
+      "price_from": 0,
+      "currency": "GBP",
+      "unit": "per session",
+      "notes": "Free of charge. Required before any treatment."
+    }
+  ],
+  "booking": {
+    "channels": ["WhatsApp", "Website"],
+    "cancellation_policy": "24 hours notice required for cancellations.",
+    "deposit_required": false,
+    "notes": "Bookings can be made via WhatsApp or through our website."
+  },
+  "escalation_triggers": [
+    "complaint",
+    "medical question",
+    "pricing negotiation",
+    "more than 2 unanswered questions",
+    "angry sentiment",
+    "explicit human request",
+    "side effects query",
+    "post-treatment concern"
+  ],
+  "contact": {
+    "whatsapp": "Available via WhatsApp",
+    "website": "Available via website booking form"
+  },
+  "faqs": [
+    {
+      "question": "How much does Botox cost?",
+      "answer": "Botox starts from £200 per area. The exact cost depends on the number of areas treated. We recommend a free consultation to discuss your specific needs and get an accurate quote."
+    },
+    {
+      "question": "Do you offer free consultations?",
+      "answer": "Yes! We offer free consultations. This is actually required before any treatment. You can book via WhatsApp or our website."
+    },
+    {
+      "question": "What are your opening hours?",
+      "answer": "We are open Monday to Saturday, 9am to 7pm. We are closed on Sundays."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book via WhatsApp or through our website. We require 24 hours notice for any cancellations."
+    },
+    {
+      "question": "How much do fillers cost?",
+      "answer": "Dermal fillers start from £250 per syringe. The total cost depends on the area being treated and how many syringes are required. A free consultation will give you an accurate personalised quote."
+    }
+  ]
+}
